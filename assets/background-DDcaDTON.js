@@ -1,0 +1,1 @@
+import{i as e,n as t}from"./constants-DbpHH-F-.js";e.onReady(()=>{e.broadcast.onMessage(t,t=>{let n=t.data,r=n.label?` for ${n.label}`:``;e.notification.show(`${n.name} rolled ${n.total}${r}`,`INFO`)})});

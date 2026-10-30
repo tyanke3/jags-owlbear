@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JAGS Dice</title>
+    <script type="module" crossorigin src="/assets/main-BnoG-vWq.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/constants-DbpHH-F-.js">
+    <link rel="stylesheet" crossorigin href="/assets/main-CsXthBHO.css">
+  </head>
+  <body>
+    <main>
+      <div id="tray" aria-hidden="true"></div>
+
+      <section class="result" aria-live="polite">
+        <div id="total" class="total">—</div>
+        <div id="breakdown" class="breakdown">Roll 4d6 − 4</div>
+      </section>
+
+      <section class="controls">
+        <input id="label" type="text" placeholder="What's it for? (optional)" maxlength="40" />
+        <div class="row">
+          <div class="stepper" title="Modifier">
+            <button id="mod-down" type="button" aria-label="Decrease modifier">−</button>
+            <output id="mod">+0</output>
+            <button id="mod-up" type="button" aria-label="Increase modifier">+</button>
+          </div>
+          <button id="roll" class="primary" type="button">Roll</button>
+        </div>
+      </section>
+
+      <nav class="tabs" role="tablist">
+        <button role="tab" data-tab="log" aria-selected="true">Log</button>
+        <button role="tab" data-tab="dice" aria-selected="false">Dice</button>
+      </nav>
+
+      <section id="panel-log" class="panel">
+        <ol id="log" class="log"></ol>
+        <p id="log-empty" class="muted">No rolls yet.</p>
+        <button id="clear" type="button" class="link" hidden>Clear log</button>
+      </section>
+
+      <section id="panel-dice" class="panel" hidden>
+        <div id="presets" class="presets"></div>
+        <label class="field">Die colour <input id="die-color" type="color" /></label>
+        <label class="field">Pip colour <input id="pip-color" type="color" /></label>
+        <label class="field">
+          Material
+          <select id="material">
+            <option value="plastic">Plastic</option>
+            <option value="metal">Metal</option>
+            <option value="glass">Glass</option>
+            <option value="stone">Stone</option>
+          </select>
+        </label>
+        <label class="field">Round pips <input id="rounded" type="checkbox" /></label>
+        <p class="muted">Other players see your dice in your style.</p>
+
+        <h3 class="subhead">Tray</h3>
+        <label class="field">Tray colour <input id="tray-color" type="color" /></label>
+        <label class="field">
+          Tray material
+          <select id="tray-material">
+            <option value="felt">Felt</option>
+            <option value="wood">Wood</option>
+            <option value="leather">Leather</option>
+            <option value="stone">Stone</option>
+          </select>
+        </label>
+        <button id="tray-reset" type="button" class="link">Reset tray</button>
+        <p class="muted">Only you see your tray.</p>
+      </section>
+    </main>
+  </body>
+</html>
