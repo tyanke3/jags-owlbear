@@ -4,12 +4,12 @@
   "manifest_version": 1,
   "author": "tyankee",
   "description": "Roll JAGS 4d6-4 with 3D dice, a shared roll log for the whole table, and custom dice styles.",
-  "icon": "/icon.svg",
-  "background_url": "jags-owlbear/background.html",
+  "icon": "/jags-owlbear/icon.svg",
+  "background_url": "/jags-owlbear/background.html",
   "action": {
     "title": "JAGS Dice",
-    "icon": "jags-owlbear/icon.svg",
-    "popover": "jags-owlbear/",
+    "icon": "/jags-owlbear/icon.svg",
+    "popover": "/jags-owlbear/",
     "width": 380,
     "height": 620
   }
