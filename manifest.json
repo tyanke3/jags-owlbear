@@ -1,7 +1,7 @@
 {
   "name": "JAGS Dice",
-  "version": "0.2.6",
-  "manifest_version": 4,
+  "version": "0.4.0",
+  "manifest_version": 1,
   "author": "tyankee",
   "description": "Roll JAGS 4d6-4 with 3D dice, a shared roll log for the whole table, and custom dice styles.",
   "icon": "/jags-owlbear/icon.svg",
