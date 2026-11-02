@@ -4,12 +4,12 @@
   "manifest_version": 1,
   "author": "tyankee",
   "description": "Roll JAGS 4d6 (sixes count as 0) with 3D dice, a shared roll log for the whole table, and custom dice styles.",
-  "icon": "/jags-roller/icon.svg",
-  "background_url": "/jags-roller/background.html",
+  "icon": "/jags-owlbear/icon.svg",
+  "background_url": "/jags-owlbear/background.html",
   "action": {
     "title": "JAGS Dice",
-    "icon": "/jags-roller/icon.svg",
-    "popover": "/jags-roller/",
+    "icon": "/jags-owlbear/icon.svg",
+    "popover": "/jags-owlbear/",
     "width": 380,
     "height": 720
   }
