@@ -1,9 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round">
-  <rect x="2.5" y="8.5" width="10" height="10" rx="2.2"/>
-  <rect x="11.5" y="4.5" width="10" height="10" rx="2.2" transform="rotate(12 16.5 9.5)"/>
-  <circle cx="5.5" cy="11.5" r="0.9" fill="white" stroke="none"/>
-  <circle cx="7.5" cy="13.5" r="0.9" fill="white" stroke="none"/>
-  <circle cx="9.5" cy="15.5" r="0.9" fill="white" stroke="none"/>
-  <circle cx="14.6" cy="7.3" r="0.9" fill="white" stroke="none"/>
-  <circle cx="18.4" cy="11.7" r="0.9" fill="white" stroke="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.4" stroke-linejoin="round">
+  <rect x="1.7" y="1.7" width="9.3" height="9.3" rx="2"/>
+  <rect x="13" y="1.7" width="9.3" height="9.3" rx="2"/>
+  <rect x="1.7" y="13" width="9.3" height="9.3" rx="2"/>
+  <rect x="13" y="13" width="9.3" height="9.3" rx="2"/>
+  <g fill="white" stroke="none">
+    <circle cx="4.2" cy="4.2" r="0.85"/>
+    <circle cx="6.35" cy="6.35" r="0.85"/>
+    <circle cx="8.5" cy="8.5" r="0.85"/>
+    <circle cx="17.65" cy="6.35" r="1.1"/>
+    <circle cx="4.2" cy="19.8" r="0.85"/>
+    <circle cx="8.5" cy="15.5" r="0.85"/>
+    <circle cx="15.5" cy="15.5" r="0.85"/>
+    <circle cx="19.8" cy="15.5" r="0.85"/>
+    <circle cx="15.5" cy="19.8" r="0.85"/>
+    <circle cx="19.8" cy="19.8" r="0.85"/>
+  </g>
 </svg>
