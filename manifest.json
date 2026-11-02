@@ -1,6 +1,6 @@
 {
   "name": "JAGS Dice",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "manifest_version": 1,
   "author": "tyankee",
   "description": "Roll JAGS 4d6 (sixes count as 0) with 3D dice, a shared roll log for the whole table, and custom dice styles.",
